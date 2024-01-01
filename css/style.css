@@ -1118,7 +1118,7 @@ _______________________________________________________*/
 _______________________________________________________*/
 /*----- Banner Css -----*/
 .home-banner {
-  background: url(../images/home-banner-bg.jpg) no-repeat center/cover;
+  background: url(../images/service-1.png) no-repeat center/cover;
   padding: 30px 0px;
   position: relative;
   height: calc(100vh - 100px);
@@ -1136,6 +1136,8 @@ _______________________________________________________*/
 .banner-content {
   position: relative;
   z-index: 1;
+  background-color: #ffffffe1;
+  padding: 2rem;
 }
 
 .banner-title {
@@ -1155,6 +1157,7 @@ _______________________________________________________*/
 
 .banner-img {
   position: relative;
+  scale: 1.2;
   z-index: 1;
 }
 
@@ -1203,6 +1206,8 @@ _______________________________________________________*/
 
 .banner-imge-animation .bottom-left-img {
   position: absolute;
+  rotate: -36deg;
+  scale: 0.4;
   bottom: 12%;
   left: 0;
   width: 11%;
@@ -1215,6 +1220,8 @@ _______________________________________________________*/
 .banner-imge-animation .top-center-img {
   position: absolute;
   top: 7%;
+  rotate: 19deg;
+  scale: 0.55;
   left: 0;
   width: 100%;
   text-align: center;
@@ -1228,6 +1235,8 @@ _______________________________________________________*/
 .banner-imge-animation .bottom-right-2-img {
   position: absolute;
   bottom: 0;
+  rotate: -53deg;
+  scale: 0.58;
   right: 80px;
   width: 8%;
 }
@@ -1304,16 +1313,10 @@ _______________________________________________________*/
 .about-left-img {
   position: absolute;
   top: -105px;
-  left: -10px;
+  left: -20px;
   max-width: 48%;
   border: 10px solid #ffffff;
   z-index: 1;
-}
-
-.about-ring {
-  position: absolute;
-  top: 32%;
-  left: -100px;
 }
 
 .about-ring img {
@@ -1364,6 +1367,7 @@ _______________________________________________________*/
 .recipe-img {
   margin-bottom: 20px;
   position: relative;
+  border-radius: 20px;
 }
 
 .recipe-img > a {
@@ -1380,7 +1384,7 @@ _______________________________________________________*/
 .recipe-content p {
   display: -webkit-box;
   max-width: 100%;
-  max-height: 55px;
+  max-height: 80px;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -1414,10 +1418,6 @@ _______________________________________________________*/
   background-position: left center;
 }
 
-.service-inner {
-  padding-top: 75px;
-}
-
 .service-box {
   padding-bottom: 30px;
 }
@@ -1440,7 +1440,9 @@ _______________________________________________________*/
 
 .service-main-img {
   border: 10px solid #ffffff;
-  max-width: 65%;
+  max-width: 100%;
+  margin-top: 125px;
+  margin-left: 75px;
   position: relative;
   z-index: 1;
 }
@@ -1576,6 +1578,7 @@ _______________________________________________________*/
 
 .bike {
   position: relative;
+  scale: 0.8;
 }
 
 .bike img {
@@ -1597,6 +1600,7 @@ _______________________________________________________*/
   position: relative;
   display: block;
   overflow: hidden;
+  scale: 0.9;
 }
 
 .instagram-item a:before {
@@ -2472,6 +2476,10 @@ _______________________________________________________*/
   color: #61ad0c;
 }
 
+.fmr {
+  width: 100%;
+}
+
 .contact-detail .section-headding h2 {
   padding-bottom: 20px;
 }
@@ -2498,6 +2506,10 @@ _______________________________________________________*/
   margin-bottom: 30px;
   text-align: center;
   font-weight: 400;
+}
+
+.contactfrm {
+  width: 100%;
 }
 
 .map-section iframe {
@@ -4198,7 +4210,8 @@ _______________________________________________________*/
 }
 
 .footer-logo {
-  margin-bottom: 25px;
+  margin-bottom: 25px; 
+  margin-right: 50px;
   display: inline-block;
 }
 
@@ -5341,7 +5354,7 @@ _______________________________________________________*/
     top: -50px;
   }
   .service-imgs {
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .year-text {
     font-size: 16px;
